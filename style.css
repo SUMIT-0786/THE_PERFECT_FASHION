@@ -1,0 +1,135 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: #3ec4d2;
+}
+.menu img{
+  width: 35%;
+}
+.nav-menu li{
+  margin-left: 15px;
+}
+.top-banner{
+  background-color: #ff7300;
+}
+.banner{
+  background-color: #b62c5848;
+  padding: 50px;
+  margin-top: -65px;
+  padding-top: 200px;
+}
+.casual-shoes img{
+  background-color: #F1F1F1;
+  border-radius: 20px;
+}
+.card{
+  border: none;
+  box-shadow: 9px 12px 20px lightgrey;
+  border-radius: 15px;
+}
+.supporting{
+  margin-top: 85px;
+}
+.nike-btn{
+  background-image: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+  color: white;
+}
+.nike-btn:hover{
+  color: white;
+}
+.font li{
+  font-size: 30px;
+  margin-right: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+container {
+  display: flex;
+  font-size: 14px;
+  height: 9vh;
+  background: #d8d8d8;
+}
+
+.navbar {
+  margin: auto;
+  padding: 0.5rem 1.5rem;
+  background: #fff;
+  border-radius: rem;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-link, .drop-down li {
+  list-style: none;
+  height: 100%;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.drop-down {
+  position: absolute;
+  padding: 0.5rem 0;
+  margin: 0.5rem -0.5rem;
+  background: antiquewhite;
+  color: black;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  font-size: 12px;
+  display: none;
+}
+
+.nav-link:hover {
+  background-color: black;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.services:hover .drop-down {
+  display: block;
+}
+
+.services a {
+  display: flex;
+  align-items: center;
+}
+
+.services .dropdown-icon {
+  font-size: 18px;
+  position: relative;
+  right: -5px;
+  transform: rotate(0deg);
+  transition: 0.3s ease-in-out all;
+}
+
+.services:hover .dropdown-icon {
+  transform: rotate(180deg);
+}
+
+.drop-down li:hover {
+  background: black;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+
+.logo{
+background-color: white;
+height: 80px;
+}
